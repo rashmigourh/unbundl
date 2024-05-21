@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveStyle.css">
+    <link rel="stylesheet" href="fonticon/css/all.css" />
+    <title>unbundl</title>
+</head>
+
+<body>
+    <!-------------------------------------------------------NAVBAR--------------------------------------------------------->
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <img src="assets/logo.png" alt="logo" class="logo">
+        <nav class="navbar">
+            <div class="navigate">
+                <div class="dropdown">
+                    <button onclick="toggleDropdown('dropdown1')" class="dropbtn">Treatments <i
+                            class="fa-solid fa-angle-down" style="color: #F8943F;"></i></button>
+                    <div id="dropdown1" class="dropdown-content">
+                        <div class="downdownBox">
+                            <div class="section">
+                                <a href="#">Advance Gum Treatments <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Clear Aligners <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Dentures <i class="fa-solid fa-arrow-right" style="color: #F8943F;"></i></a>
+                                <a href="#">Preventive dentistry <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Teeth whitening <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                            </div>
+                            <div class="section">
+                                <a href="#">Advance Gum Treatments <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Clear Aligners <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Dentures <i class="fa-solid fa-arrow-right" style="color: #F8943F;"></i></a>
+                                <a href="#">Preventive dentistry <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Teeth whitening <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                            </div>
+                            <div class="section">
+                                <a href="#">Advance Gum Treatments <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Clear Aligners <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Dentures <i class="fa-solid fa-arrow-right" style="color: #F8943F;"></i></a>
+                                <a href="#">Preventive dentistry <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                                <a href="#">Teeth whitening <i class="fa-solid fa-arrow-right"
+                                        style="color: #F8943F;"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="vl"></div>
+                <a href="#">Dental Plans <i class="fa-solid fa-angle-down" style="color: #F8943F;"></i></a>
+                <div class="vl"></div>
+                <a href="#">Our Doctors <i class="fa-solid fa-angle-down" style="color: #F8943F;"></i></a>
+                <div class="vl"></div>
+                <a href="#">Careers <i class="fa-solid fa-angle-down" style="color: #F8943F;"></i></a>
+                <div class="vl"></div>
+                <a href="#">Find a Clinic <i class="fa-solid fa-angle-down" style="color: #F8943F;"></i></a>
+            </div>
+        </nav>
+        <div class="nav-buttons">
+            <div class="nav-button1" id="login-btn">
+                <img src="assets/book.jpeg" alt="book">
+                <p>Book Appointment</p>
+            </div>
+            <div class="dropdown">
+                <button onclick="toggleDropdown('dropdown2')" class="dropbtn"
+                    style="display: flex;justify-content: center;align-items: center;gap: 1rem;color: #4d2c19;border: 1px solid #fbbe9c;padding: 1rem;font-size: 1.5rem;border-radius: 50px;cursor: pointer;">
+                    <img src="assets/phone.jpeg" alt="phone">
+                    <p>Help</p>
+                    <i class="fa-solid fa-angle-down"></i>
+                </button>
+                <div id="dropdown2" class="dropdown-content">
+                    <div style="display: flex; font-size: 1.5rem; justify-content: space-between;">
+                        <div>
+                            <p>North India</p>
+                            <p>+91123456789</p>
+                        </div>
+                        <img src="assets/icon1.jpeg" alt="phone">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- login-form -->
+    <div class="login-form-container">
+            <i class="fas fa-times" id="form-close"></i>
+        <form action="#">
+            <h3>Book your consultation at Clove Dental</h3>
+            <p>Please fill out the form below to book a consultation with Clove Dental.</p>
+            <h6 style="color:#F8943F;">Step 1. Personal Details</h6>
+
+            <div class="form-group">
+                <div class="field">
+                    <input type="text" placeholder="Name">
+                    <span class="tag">Full Name</span>
+                </div>
+                <div class="field">
+                    <input type="text" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="field">
+                    <input type="text" placeholder="Mobile">
+                </div>
+
+                <div class="field" style="display: flex;">
+                    <input type="text" placeholder="Enter OTP"
+                        style="border-radius: 50px 0 0 50px;border: (1px solid #888888) (0) (1px solid #888888) (1px solid #888888); border-right: none;">
+                    <button class="email">Verify</button>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button>Next</button>
+            </div>
+        </form>
+    </div>
+
+    <!---------------------------------------------- HOME SECTION ----------------------------------------------------->
+    <div class="carousel-container">
+            <div class="slide-container">
+                <div class="slide-content">
+                    <h1>Advance Dental Health Plan</h1>
+                    <p style="color: #525252;">Dental care worth ₹8,000/-</p>
+                    <p>only at ₹550/-</p>
+                    <div class="btn" style="text-align: left; margin: 2rem 0;">
+                        <button>Buy Now</button>
+                    </div>
+                </div>
+                <img src="assets/image1.png" alt="Image">
+        </div>
+    </div>
+
+    <!------------------------------------------- FIXED BUTTON SECTION ------------------------------------------------>
+    <div id="fixed-button">
+        <img src="assets/chat.png" alt="chat">
+    </div>
+
+    <!--------------------------------------------- GOOGLE SECTION --------------------------------------------------->
+    <div class="googleContainer container">
+         <div class="content">
+            <h1><span style="color: #EA7D28;">450+  </span> World Class Clinics</h1>
+            <p>Manned by 1200+ Super Specialists</p>
+         </div>
+         <div class="block">
+            <div class="google">     
+                    <img src="assets/google.png" alt="google">
+                <div class="google-content">
+                    <p><i class="fa-solid fa-star" style="color: #FFB217;"></i> 4.9/5</p>
+                    <h1 style="color: #EA7D28;">1.5 Lakh+</h1>
+                    <p>5 Star Ratings</p>
+                </div>
+                </div>
+                <div class="vl"></div>
+
+                <div class="form-group">
+                    <div class="field" style="margin: 2rem 0rem; width: 100%;">
+                        <input type="text" placeholder="Select your City">
+                    </div>
+                    <div class="btn">
+                        <button style="width: 100%;">Locate nearest Clove clinic</button>
+                    </div>
+                </div>
+         </div>
+    </div>
+
+    <!------------------------------------------- DENTAL ISSUE SECTION ------------------------------------------------>
+    <div class="iconContainer container">
+        <div class="heading head-font">
+            <h2>All dental issues from simple cleaning
+                <br /> to full mouth rehabilitation under one roof
+            </h2>
+        </div>
+        <div class="icon-container">
+            <div class="icon">
+                <img src="assets/img1.jpeg" alt="RootCanal">
+                <p>Root Canal <br /> Treatment</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img2.jpeg" alt="Braces">
+                <p>Braces</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img3.jpeg" alt="Teeth">
+                <p>Teeth <br> Whitening</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img4.jpeg" alt="InvisibleBraces">
+                <p>Invisible <br> Braces</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img5.jpeg" alt="DentalImplants">
+                <p>Dental <br> Implants</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img6.jpeg" alt="SmileMakeover">
+                <p>Smile <br> Makeover</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img7.jpeg" alt="KidsDentistry">
+                <p>Kids Dentistry</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img8.jpeg" alt="GumTreatment">
+                <p>Gum <br> Treatment</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img9.jpeg" alt="WisdomTooth">
+                <p>Wisdom tooth</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img10.jpeg" alt="LaserDentistry">
+                <p>Laser/Painless <br> Dentistry</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img11.jpeg" alt="Crowns&Bridges">
+                <p>Crowns & Bridges</p>
+            </div>
+            <div class="icon">
+                <img src="assets/img12.jpeg" alt="Dentures">
+                <p>Dentures</p>
+            </div>
+        </div>
+
+        <div class="explore">
+            <p>
+                <i class="fa-solid fa-magnifying-glass" style="color: #F8943F; margin: 0 1rem;"></i>
+                <b style="text-decoration: underline; color: #4d2c19;cursor: pointer;">Explore Treatments</b>
+                <i class="fa-solid fa-arrow-right" style="color: #F8943F; margin: 0 1rem;"></i>
+            </p>
+        </div>
+    </div>
+
+    <!--------------------------------------------- CARDS SECTION ---------------------------------------------------------->
+    <div class="cardContainer container">
+        <div class="block1">
+            <form action="#">
+                <div class="heading" style="text-align: left; line-height: 5rem;">
+                    <h1>Expert Guidance for <br />Healthy Smiles</h1>
+                    <p>Contact Now</p>
+                </div>
+                <div class="form-group">
+                    <div class="field">
+                        <input type="text" placeholder="Name">
+                        <span class="tag">Name</span>
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Mobile Number">
+                    </div>
+                    <div class="field">
+                        <input type="text" placeholder="Select Concern">
+                    </div>
+                    <div class="btn">
+                        <button style="width: 80%;" class="btn-margin">Book A Free Consultation</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="block2">
+            <div class="Cards" style="background-color:#FBF5FF;">
+                <div class="content">
+                    <div>
+                        <h1>10x Safety Protocols</h1>
+                        <p>Monitored by DORI</p>
+                        <p>(Artificial Intelligence System)</p>
+                    </div>
+                    <p style="color: #4d2c19; font-size: 2rem;">
+                        <b style="text-decoration: underline;cursor: pointer;">Learn More</b>
+                        <i class="fa-solid fa-arrow-right" style="margin: 0 1rem;"></i>
+                    </p>
+                </div>
+                <img src="assets/image3.png" alt="image">
+            </div>
+
+            <div class="Cards">
+                <div class="card" style="background-color: #F5F8FF;">
+                    <h1>450+ Neighbourhood</h1>
+                    <p>Clinics Pan India</p>
+                    <img src="assets/img13.jpeg" alt="plus">
+                    <p>
+                        <b style="text-decoration: underline; color: #4d2c19;cursor: pointer;">Locate Clinic near
+                            you</b>
+                        <i class="fa-solid fa-arrow-right" style="color: #F8943F; margin: 0 1rem;"></i>
+                    </p>
+                </div>
+
+                <div class="card" style="background-color: #E1F2EE;">
+                    <h1>1200+ Expert Doctors</h1>
+                    <p>Covering All Specialities</p>
+                    <img src="assets/img14.jpeg" alt="teeth">
+                    <p>
+                        <b style="text-decoration: underline; color: #4d2c19;cursor: pointer;">Explore Dentists
+                            Nearby</b>
+                        <i class="fa-solid fa-arrow-right" style="color: #F8943F; margin: 0 1rem;"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------- IN THEIR OWN WORLD SECTION --------------------------------------------->
+    <div class="wordContainer container">
+        <div class="heading" style="line-height: 4rem;">
+            <h1>In their Own Words</h1>
+        </div>
+        <div class="wordCard">
+            <div class="card">
+                <img src="assets/person1.png" alt="person">
+                <p style="color: #4d2c19;">Shubham</p>
+                <p style="color: #EA7D28;">Braces</p>
+            </div>
+            <div class="card">
+                <img src="assets/person2.png" alt="person">
+                <p style="color: #4d2c19;">Shubham</p>
+                <p style="color: #EA7D28;">Braces</p>
+            </div>
+            <div class="card">
+                <img src="assets/person3.png" alt="person">
+                <p style="color: #4d2c19;">Shubham</p>
+                <p style="color: #EA7D28;">Braces</p>
+            </div>
+            <div class="card">
+                <img src="assets/person4.gif" alt="person">
+                <p style="color: #4d2c19;">Shubham</p>
+                <p style="color: #EA7D28;">Braces</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------ DOCTOR SECTION ----------------------------------------------->
+    <div class="doctorContainer">
+        <div class="cardContainer1">
+            <div class="heading head-font" style="line-height: 4rem;">
+                <h2>Unmatched Dental Excellence <br>
+                    by 1200+ Specialists
+                </h2>
+            </div>
+            <div class="CardContainer1">
+                <div class="card1">
+                    <img src="assets/icon3.jpg" alt="image">
+                    <div class="content">
+                        <b>
+                            <p>Team of Specialists</p>
+                        </b>
+                        <p><span style="color: #EA7D28;">75+</span> Orthodontists</p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <img src="assets/icon4.jpeg" alt="image">
+                    <div class="content">
+                        <p>Leading with</p>
+                        <p><span style="color: #EA7D28;">80%</span> women</p>
+                    </div>
+                </div>
+
+                <div class="card1">
+                    <img src="assets/icon5.jpeg" alt="image">
+                    <div class="content">
+                        <p><span style="color: #EA7D28;">65%</span> MDS</p>
+                        <p>Doctors for specialised care</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cardContainer2">
+            <div class="CardContainer2">
+                <div class="image">
+                    <img src="assets/doctor1.png" alt="doctor">
+                    <h1>Dr. Suresh Kumar</h1>
+                    <p>18+ Years Experience</p>
+                </div>
+                <div class="image">
+                    <img src="assets/doctor2.png" alt="doctor">
+                    <h1>Dr. Rajni Mary</h1>
+                    <p>10+ Years Experience</p>
+                </div>
+                <div class="image">
+                    <img src="assets/doctor3.png" alt="doctor">
+                    <h1>Dr. Shushma Reddy</h1>
+                    <p>20+ Years Experience</p>
+                </div>
+            </div>
+
+            <div class="btn txt-align">
+                <button>Meet our Doctors</button>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------- MARQUEE SECTION -------------------------------------------------->
+    <marquee scrollamount="10" direction="left" class="marqueeContainer">
+        <div class="marquee">
+            <div class="contain">
+                <img src="assets/img15.jpeg" alt="image">
+                <p><span style="color: #C96A34;">20 L+</span> Happy Patients</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img16.jpeg" alt="image">
+                <p><span style="color: #C96A34;">1200+</span> Dentists</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img18.jpeg" alt="image">
+                <p><span style="color: #C96A34;">450+</span> Clinics</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img17.jpeg" alt="image">
+                <p><span style="color: #C96A34;">7 Days</span> Open</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img15.jpeg" alt="image">
+                <p><span style="color: #C96A34;">20 L+</span> Happy Patients</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img16.jpeg" alt="image">
+                <p><span style="color: #C96A34;">1200+</span> Dentists</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img18.jpeg" alt="image">
+                <p><span style="color: #C96A34;">450+</span> Clinics</p>
+            </div>
+            <div class="contain">
+                <img src="assets/img17.jpeg" alt="image">
+                <p><span style="color: #C96A34;">7 Days</span> Open</p>
+            </div>
+        </div>
+    </marquee>
+
+    <!------------------------------------- SLIDER SECTION ---------------------------------------------------->
+    <div class="sliderContainer">
+        <div class="slider">
+        <img src="assets/bgImg1.png" alt="image">
+        <div class="slider-container">
+             <p style=" margin-left: 0.5rem;">Experience</p>
+            <h1 style="display: flex; align-items: center;gap: 2rem;">AIPS<p class="hl"></p></h1>
+            <p class="line-height">Our AI- Powered Sterilization (AIPS) <br> Monitoring system from DORI, USA <br>
+                Exclusively at Clove</p>
+            <div class="explore-margin">
+                <p style="text-align: left;">
+                    <b style="text-decoration: underline; color: #EA7D28;cursor: pointer;">Learn More</b>
+                    <i class="fa-solid fa-arrow-right" style="color: #F8943F; margin: 0 1rem;"></i>
+                </p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <!----------------------------------------- BLOG SECTION -------------------------------------------------------->
+    <div class="blogContainer">
+        <div class="heading head-font">
+        <h2>Journey Through Knowledge: Blog Hub</h2>
+        </div>
+        <div class="contain">
+            <p href="#" style="color: #EA7D28;font-weight: bold;">General Dentistry</p>
+            <div class="vl vlColor"></div>
+            <p href="#">Cosmetics Dentistry</p>
+            <div class="vl vlColor"></div>
+            <p href="#">Crowns & Bridges</p>
+            <div class="vl vlColor"></div>
+            <p href="#">Nutrition</p>
+            <div class="vl vlColor"></div>
+            <p href="#">Oral Surgery</p>
+            <div class="vl vlColor"></div>
+            <p href="#">Root Canal</p>
+            <div class="vl vlColor"></div>
+            <p href="#">Implants & Dentures</p>
+        </div>
+        <div class="blog-container">
+            <div class="blog">
+                <img src="assets/img19.jpeg" alt="image">
+                <div class="content-container">
+                    <div class="content">
+                        <h2>Dry Sockets Demystified:</h2>
+                        <h2>Understanding the connection to tooth extraction</h2>
+                    </div>
+                    <div class="date">
+                        <p href="#">12th Feb 2024</p>
+                        <div class="vl vlColor"></div>
+                        <p href="#">2 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="assets/img19.jpeg" alt="image">
+                <div class="content-container">
+                    <div class="content">
+                        <h2>Dry Sockets Demystified:</h2>
+                        <h2>Understanding the connection to tooth extraction</h2>
+                    </div>
+                    <div class="date">
+                        <p href="#">12th Feb 2024</p>
+                        <div class="vl vlColor"></div>
+                        <p href="#">2 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="assets/img19.jpeg" alt="image">
+                <div class="content-container">
+                    <div class="content">
+                        <h2>Dry Sockets Demystified:</h2>
+                        <h2>Understanding the connection to tooth extraction</h2>
+                    </div>
+                    <div class="date">
+                        <p href="#">12th Feb 2024</p>
+                        <div class="vl vlColor"></div>
+                        <p href="#">2 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="assets/img19.jpeg" alt="image">
+                <div class="content-container">
+                    <div class="content">
+                        <h2>Dry Sockets Demystified:</h2>
+                        <h2>Understanding the connection to tooth extraction</h2>
+                    </div>
+                    <div class="date">
+                        <p href="#">12th Feb 2024</p>
+                        <div class="vl vlColor"></div>
+                        <p href="#">2 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="assets/img19.jpeg" alt="image">
+                <div class="content-container">
+                    <div class="content">
+                        <h2>Dry Sockets Demystified:</h2>
+                        <h2>Understanding the connection to tooth extraction</h2>
+                    </div>
+                    <div class="date">
+                        <p href="#">12th Feb 2024</p>
+                        <div class="vl vlColor"></div>
+                        <p href="#">2 min read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blog">
+                <img src="assets/img19.jpeg" alt="image">
+                <div class="content-container">
+                    <div class="content">
+                        <h2>Dry Sockets Demystified:</h2>
+                        <h2>Understanding the connection to tooth extraction</h2>
+                    </div>
+                    <div class="date">
+                        <p href="#">12th Feb 2024</p>
+                        <div class="vl vlColor"></div>
+                        <p href="#">2 min read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="explore" style="margin-top: 8rem;">
+            <p>
+                <i class="fa-solid fa-magnifying-glass" style="color: #F8943F; margin: 0 1rem;"></i>
+                <b style="text-decoration: underline; color: #4d2c19;cursor: pointer;">Explore More</b>
+                <i class="fa-solid fa-arrow-right" style="color: #F8943F; margin: 0 1rem;"></i>
+            </p>
+        </div>
+    </div>
+
+    <!------------------------------------- LOGO SECTION ---------------------------------------------------->
+    <div class="logoContainer container">
+        <img src="assets/handShake.jpg" alt="image">
+        <div class="logo-container">
+            <div class="logo-head">
+                <h1 style="color: #EA7D28;">250+</h1>
+                <h3 style="color: #000000;">Corporate Trust Us</h3>
+                <p style="color: #474747;">Check if your company is one of them & avail exclusive benefits</p>
+            </div>
+            <div>
+                <marquee scrollamount="10" direction="left" class="logo">
+                    <img src="assets/bata.png" alt="image">
+                    <img src="assets/taj.png" alt="image">
+                    <img src="assets/vardhman.png" alt="image">
+                    <img src="assets/lakme.png" alt="image">
+                    <img src="assets/marsh.png" alt="image">
+                    <img src="assets/bata.png" alt="image">
+                    <img src="assets/taj.png" alt="image">
+                    <img src="assets/vardhman.png" alt="image">
+                    <img src="assets/lakme.png" alt="image">
+                    <img src="assets/marsh.png" alt="image">
+                </marquee>
+            </div>
+            <div class="btn">
+                <button>Book Appointment</button>
+            </div>
+            <div class="explore">
+                <p>
+                    <b style="text-decoration: underline; color: #4d2c19;cursor: pointer;">Register your company</b>
+                    <i class="fa-solid fa-arrow-right" style="color: #F8943F; margin: 0 1rem;"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------- DENTISTRY SECTRION ------------------------------------------------>
+    <div class="destistryContainer container">
+        <div class="heading head-font">
+            <h2>Beyond Dentistry</h2>
+            <p>Mapping success in every area</p>
+        </div>
+        <div class="icon-container">
+            <div class="icon">
+                <img src="assets/logo1.jpeg" alt="EducationalVideos">
+                <p>Educational Videos</p>
+            </div>
+            <div class="icon">
+                <img src="assets/logo2.jpeg" alt="News&Media">
+                <p>News & Media</p>
+            </div>
+            <div class="icon">
+                <img src="assets/logo3.jpeg" alt="Rewards">
+                <p>Rewards</p>
+            </div>
+            <div class="icon">
+                <img src="assets/logo4.jpeg" alt="careers">
+                <p>Careers</p>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------- ACCORDION SECTION ------------------------------------------------>
+    <div class="heading" style="font-size: 2.2rem; text-align: left; margin: 0 11rem;">
+        <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="accordion-container">
+        <div class="accordion-column">
+            <div class="accordion-item">
+                <button class="accordion-header">Can i choose the dentist on my own for treatment ? <i
+                        class="fa-solid fa-plus" style="color: #EA7D28;"></i></button>
+                <div class="accordion-content">
+                    <p>Yes, you can absolutely choose your own dentist for treatment. We understand that building a
+                        trusting relationship with your dentist is crucial for your comfort and the success of your
+                        dental care. Our practice allows you to select from a team of experienced and compassionate
+                        dentists who are dedicated to providing the highest quality of care. You can view our dentists'
+                        profiles on our website, read about their specialties, and even schedule a consultation to find
+                        the right match for your needs. Your satisfaction and comfort are our top priorities.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Will i get the same doctor each time i visit the same clinic ? <i
+                        class="fa-solid fa-plus" style="color: #EA7D28;"></i></button>
+                <div class="accordion-content">
+                    <p>We understand the importance of continuity in your dental care, and we strive to ensure that you
+                        see the same dentist at each visit. Our scheduling system is designed to book your appointments
+                        with your preferred dentist whenever possible. However, in cases of emergencies or scheduling
+                        conflicts, another qualified member of our dental team may attend to you. Rest assured, all our
+                        dentists have access to your complete dental records and are committed to providing consistent,
+                        high-quality care.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How you are able to provide less prices than other dental brands <i
+                        class="fa-solid fa-plus" style="color: #EA7D28;"></i></button>
+                <div class="accordion-content">
+                    <p>At our practice, we focus on maximizing efficiency and minimizing overhead costs. By leveraging
+                        advanced technology, streamlining our operations, and maintaining strong relationships with
+                        suppliers, we are able to reduce expenses without compromising on quality. This allows us to
+                        pass on the savings to our patients, offering top-notch dental care at more affordable prices.
+                        Your oral health is our priority, and we believe everyone deserves access to exceptional dental
+                        services.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-column">
+            <div class="accordion-item">
+                <button class="accordion-header">Can i choose the dentist on my own for treatment ? <i
+                        class="fa-solid fa-plus" style="color: #EA7D28;"></i></button>
+                <div class="accordion-content">
+                    <p>Yes, you can absolutely choose your own dentist for treatment. We understand that building a
+                        trusting relationship with your dentist is crucial for your comfort and the success of your
+                        dental care. Our practice allows you to select from a team of experienced and compassionate
+                        dentists who are dedicated to providing the highest quality of care. You can view our dentists'
+                        profiles on our website, read about their specialties, and even schedule a consultation to find
+                        the right match for your needs. Your satisfaction and comfort are our top priorities.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">Will i get the same doctor each time i visit the same clinic ? <i
+                        class="fa-solid fa-plus" style="color: #EA7D28;"></i></button>
+                <div class="accordion-content">
+                    <p>We understand the importance of continuity in your dental care, and we strive to ensure that you
+                        see the same dentist at each visit. Our scheduling system is designed to book your appointments
+                        with your preferred dentist whenever possible. However, in cases of emergencies or scheduling
+                        conflicts, another qualified member of our dental team may attend to you. Rest assured, all our
+                        dentists have access to your complete dental records and are committed to providing consistent,
+                        high-quality care.</p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-header">How you are able to provide less prices than other dental brands <i
+                        class="fa-solid fa-plus" style="color: #EA7D28;"></i></button>
+                <div class="accordion-content">
+                    <p>At our practice, we focus on maximizing efficiency and minimizing overhead costs. By leveraging
+                        advanced technology, streamlining our operations, and maintaining strong relationships with
+                        suppliers, we are able to reduce expenses without compromising on quality. This allows us to
+                        pass on the savings to our patients, offering top-notch dental care at more affordable prices.
+                        Your oral health is our priority, and we believe everyone deserves access to exceptional dental
+                        services.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------------------------------- FOOTER SECTION ------------------------------------------------>
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Treatments</h3>
+                <a href="#">Laser Dentistery</a>
+                <a href="#">Dental fillings</a>
+                <a href="#">Root canal Treatment</a>
+                <a href="#">Wisdom Teeth removal</a>
+                <a href="#">Braces & Aligners</a>
+                <a href="#">Dental Implants</a>
+                <a href="#">Dental Implants</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">privacy policy </a>
+                <a href="#">cookie policy</a>
+                <a href="#">advertising policy</a>
+                <a href="#">terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>Explore Clove</h3>
+                <a href="#">privacy policy </a>
+                <a href="#">cookie policy</a>
+                <a href="#">advertising policy</a>
+                <a href="#">terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>Legal</h3>
+                <a href="#">privacy policy </a>
+                <a href="#">cookie policy</a>
+                <a href="#">advertising policy</a>
+                <a href="#">terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>Connect with Us</h3>
+                <div class="legal">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="logo" style="text-align: center;">
+            <img src="assets/footerlogo.png" alt="logo">
+        </div>
+        <h1 class="credit">All Rights Reserved - 2024, Clove Dental (a brand name of M/s. Star Dental Centre Private
+            Limited)</h1>
+    </section>
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
