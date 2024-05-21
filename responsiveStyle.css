@@ -1,0 +1,423 @@
+@media (max-width: 1280px) {
+  .dropdown-content .downdownBox {
+    width: 120vh;
+    gap: 5rem;
+  }
+  .txt-align {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  .destistryContainer {
+    margin-top: 30%;
+  }
+  .sliderContainer .slider-container {
+    width: 70%;
+  }
+  .explore-margin {
+    margin: 2rem 0;
+  }
+  .line-height {
+    line-height: 3rem;
+  }
+  .slider-container p {
+    font-size: 1.7rem;
+  }
+  .slider-container h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+  .container {
+    margin: 5% 4rem;
+  }
+  header {
+    padding: 1rem 2%;
+  }
+  header .navbar .navigate a {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+  }
+  .dropbtn {
+    padding: 5px;
+    font-size: 1.5rem;
+  }
+  .dropdown-content .downdownBox {
+    width: 55vh;
+    gap: 2rem;
+  }
+  .nav-button1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  #fixed-button {
+    left: 90%;
+  }
+  .googleContainer .content {
+    width: 60%;
+  }
+  .cardContainer2 .CardContainer2 .image img {
+    width: 100%;
+    height: 60%;
+  }
+
+  .doctorContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cardContainer2 .CardContainer2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .doctorContainer .cardContainer1 .card1 img {
+    width: 10%;
+  }
+
+  .btn-margin {
+    margin-right: 7rem;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cardContainer .block1 {
+    display: inline;
+    padding: 5rem 0;
+  }
+  .cardContainer .block2 .Cards img {
+    width: 40%;
+  }
+  .cardContainer .block2 .Cards .card img {
+    width: 40%;
+    height: 40%;
+  }
+  .blogContainer .blog-container .blog h2 {
+    font-size: 1.5rem;
+  }
+  .destistryContainer {
+    margin-top: 40%;
+  }
+  .explore-margin {
+    margin: 0.5rem 0;
+  }
+}
+@media (max-width: 750px) {
+  header {
+    padding: 2rem;
+    justify-content: space-around;
+  }
+  #menu-bar {
+    display: initial;
+  }
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background: #fff1e6;
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.2);
+    padding: 1rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: 0.5s ease;
+  }
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+  .navigate .dropdown button {
+    background-color: white;
+    width: 100%;
+    text-align: left;
+    color: black;
+  }
+  .dropdown-content {
+    display: none;
+  }
+  header .navbar .navigate {
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    width: 100%;
+    position: relative;
+  }
+  .vl {
+    display: none;
+  }
+  header .navbar .navigate a {
+    display: block;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    background-color: white;
+    color: black;
+  }
+  header .logo {
+    width: 20%;
+    height: 20%;
+  }
+  .nav-button1 {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .nav-buttons img {
+    width: 10%;
+    height: 10%;
+  }
+  .login-form-container form h3,
+  h6 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+  .login-form-container form p {
+    font-size: 1.5rem;
+  }
+  .login-form-container form {
+    width: 80%;
+    padding: 3rem;
+  }
+  .form-group .field input {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+  .login-form-container #form-close {
+    margin-top: -50rem;
+    margin-left: 50rem;
+  }
+  .login-form-container .form-group {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .field .email {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  .btn button {
+    width: 60%;
+  }
+
+  .slide-container .slide-content h1 {
+    font-size: 3rem;
+  }
+  .slide-container .slide-content p {
+    font-size: 1.9rem;
+  }
+  .slide-container .slide-content {
+    line-height: 3rem;
+  }
+  .slide-container img {
+    width: 100%;
+  }
+
+  .googleContainer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .googleContainer .content {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 3rem;
+  }
+  .block .google img {
+    height: 20%;
+    width: 20%;
+  }
+  .block .google .google-content {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .icon-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .blogContainer .contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 4rem;
+  }
+  .blogContainer .blog-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  .logo-container .logo img {
+    width: 40%;
+  }
+
+  .destistryContainer {
+    margin-top: 70%;
+  }
+  .destistryContainer .icon-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .accordion-header {
+    font-size: 1.5rem;
+  }
+  .accordion-content {
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 9%;
+  }
+
+  .sliderContainer .slider img {
+    border-radius: 20px;
+  }
+  .sliderContainer .slider-container {
+    border-radius: 15px;
+    width: 50%;
+  }
+  .explore-margin {
+    margin: 1rem 0;
+  }
+  .line-height {
+    line-height: 2rem;
+  }
+  .slider-container p {
+    font-size: 1rem;
+  }
+  .slider-container h1 {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+  }
+}
+@media (max-width: 600px) {
+  .vl {
+    height: 5px;
+  }
+  .block .vl {
+    height: 50px;
+  }
+  .hl {
+    width: 50px;
+  }
+  .heading {
+    font-size: 1.7rem;
+    margin: 2rem;
+    line-height: 3rem;
+  }
+  #fixed-button {
+    width: 70px;
+    height: 70px;
+    left: 85%;
+  }
+  .wordCard .card img {
+    border-radius: 10px;
+  }
+
+  .nav-buttons img {
+    display: none;
+  }
+  .login-form-container #form-close {
+    margin-top: -57rem;
+    margin-left: 27rem;
+  }
+
+  .icon-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+  .btn-margin {
+    margin-right: 6rem;
+  }
+  .cardContainer .block2 .Cards {
+    flex-direction: column;
+    gap: 0rem;
+    margin-bottom: 2rem;
+  }
+  .cardContainer .block2 .Cards img {
+    width: 50%;
+  }
+
+  .accordion-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
+  .doctorContainer .cardContainer1 .card1 img {
+    width: 20%;
+  }
+
+  .destistryContainer {
+    margin-top: 80%;
+  }
+  .destistryContainer .icon-container img {
+    width: 40%;
+  }
+
+  .sliderContainer .slider-container {
+    width: 60%;
+  }
+  .explore-margin {
+    margin: 0;
+  }
+  .line-height {
+    line-height: 1rem;
+  }
+  .slider-container p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .head-font {
+    font-size: 1.5rem;
+  }
+  .explore p {
+    font-size: 1.5rem;
+  }
+  .slide-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .slide-container img {
+    width: 50%;
+  }
+  .btn button {
+    font-size: 1rem;
+  }
+  .icon-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .btn-margin {
+    margin-right: 2rem;
+  }
+  .doctorContainer .card1 .content p {
+    font-size: 1.7rem;
+  }
+  .cardContainer2 .CardContainer2 .image {
+    font-size: 0.8rem;
+  }
+  .blogContainer .blog-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+  .logo-head {
+    font-size: 2rem;
+  }
+  .logoContainer img {
+    border-radius: 15px;
+  }
+  .logoContainer .logo-container {
+    top: 50%;
+    left: 8%;
+    border-radius: 15px;
+    width: 85%;
+  }
+  .logo-container .logo {
+    gap: 4rem;
+    padding: 2rem;
+    margin: 0rem 5%;
+  }
+  .destistryContainer {
+    margin-top: 100%;
+  }
+  .footer .box-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 9%;
+  }
+}
